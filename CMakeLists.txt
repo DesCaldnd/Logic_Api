@@ -3,7 +3,7 @@ project(LogicAPI)
 
 set(CMAKE_CXX_STANDARD 23)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
-#set(CMAKE_CXX_FLAGS  "-lwinsock2_32")
+set(CMAKE_CXX_FLAGS  "-static")
 
 #set(CMAKE_TOOLCHAIN_FILE "C:/Programming/vcpkg/scripts/buildsystems/vcpkg.cmake")
 set(Crow_DIR "C:/Programming/vcpkg/installed/x64-windows/share/crow")

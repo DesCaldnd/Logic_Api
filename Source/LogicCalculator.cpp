@@ -49,7 +49,7 @@ std::string LogicCalculator::calculate_expression(std::string str) {
 
     response << "\"OK\", \"matrix\": [ [";
     bool isFirst = true;
-//    TODO: Matrix
+
     for (std::string label : labels){
         if(!isFirst) {
             response << ", ";
